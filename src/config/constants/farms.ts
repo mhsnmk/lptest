@@ -7,6 +7,7 @@ const farms: SerializedFarmConfig[] = [
   /**
    * These 3 farms (PID 0, 251, 252) should always be at the top of the file.
    */
+  /**
   {
     pid: 0,
     lpSymbol: 'SOBA',
@@ -16,25 +17,26 @@ const farms: SerializedFarmConfig[] = [
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,
-  },
-  {
-    pid: 2,
-    lpSymbol: 'SOBA-BNB LP',
-    lpAddresses: {
-      5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8A',
-      204: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
-    },
-    token: serializedTokens.soba,
-    quoteToken: serializedTokens.wbnb,
-  },
+  },   */
+
   {
     pid: 1,
     lpSymbol: 'OPBTC-WBNB LP',
     lpAddresses: {
-      5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8A',
+      5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8B',
       204: '0xb26ba97148c2Fa82fa414eC5149154dBBd1BE4CF',
     },
     token: serializedTokens.btcb,
+    quoteToken: serializedTokens.wbnb,
+  },
+ {
+    pid: 0,
+    lpSymbol: 'SOBA-BNB LP',
+    lpAddresses: {
+      5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8A',
+      204: '0xa8a20DDEB8eD9a3f38B455a45CC54250c6Dd8226',
+    },
+    token: serializedTokens.soba,
     quoteToken: serializedTokens.wbnb,
   },
   /* {
