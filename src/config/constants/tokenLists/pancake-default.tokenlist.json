@@ -26,14 +26,6 @@
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
-  {
-      "name": "OpBNB BTC",
-      "symbol": "OPBTC",
-      "address": "0xb26ba97148c2Fa82fa414eC5149154dBBd1BE4CF",
-      "chainId": 204,
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/eth/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
-    },
     {
       "name": "Binance Pegged BUSD",
       "symbol": "BUSD",

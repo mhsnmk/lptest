@@ -29,7 +29,7 @@ const farms: SerializedFarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'OPBNB-WBNB LP',
+    lpSymbol: 'OPBTC-WBNB LP',
     lpAddresses: {
       5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8A',
       204: '0xb26ba97148c2Fa82fa414eC5149154dBBd1BE4CF',
