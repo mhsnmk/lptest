@@ -23,7 +23,7 @@ export const mainnetTokens = defineTokens({
   bnb: new Token(MAINNET, '0x4200000000000000000000000000000000000006', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   soba: new Token(
     MAINNET,
-    '0xa8a20DDEB8eD9a3f38B455a45CC54250c6Dd8226',
+    '0xA4416D3cc05e8879869DE0EE7F2CA92fa85Eeb45',
     18,
     'SOBA',
     'SobaSwap Token',
@@ -53,6 +53,14 @@ export const mainnetTokens = defineTokens({
     'OpBNB BTC',
     'https://bitcoin.org/',
   ),
+    OpEth: new Token(
+    MAINNET,
+    '0xc28e4ec9dbc2a5dc4f849cf50a455818946d48eb',
+    18,
+    'ETH',
+    'Binance-Peg Ethereum Token',
+    'https://ethereum.org/en/',
+  ),
   /* dai: new Token(
     MAINNET,
     '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
@@ -70,9 +78,9 @@ export const mainnetTokens = defineTokens({
     'https://tether.to/',
   ),
 
-  eth: new Token(
+  OpEth: new Token(
     MAINNET,
-    '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+    '0xc28e4ec9dbc2a5dc4f849cf50a455818946d48eb',
     18,
     'ETH',
     'Binance-Peg Ethereum Token',
