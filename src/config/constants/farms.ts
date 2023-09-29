@@ -21,13 +21,13 @@ const farms: SerializedFarmConfig[] = [
 
   {
     pid: 1,
-    lpSymbol: 'OPBTC-WBNB LP',
+    lpSymbol: 'BNB-opETH LP',
     lpAddresses: {
       5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8B',
-      204: '0xb26ba97148c2Fa82fa414eC5149154dBBd1BE4CF',
+      204: '0x4Aa7d641fFf84c0E3087533385eE7237c934Ae9D',
     },
-    token: serializedTokens.btcb,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.wbnb,
+    quoteToken: serializedTokens.OpEth,
   },
  {
     pid: 0,
