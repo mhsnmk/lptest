@@ -34,7 +34,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'SOBA-BNB LP',
     lpAddresses: {
       5611: '0x15f84a3BC3D88c08C80BaD01D047a6BEc3F3CB8A',
-      204: '0xa8a20DDEB8eD9a3f38B455a45CC54250c6Dd8226',
+      204: '0xA4416D3cc05e8879869DE0EE7F2CA92fa85Eeb45',
     },
     token: serializedTokens.soba,
     quoteToken: serializedTokens.wbnb,
